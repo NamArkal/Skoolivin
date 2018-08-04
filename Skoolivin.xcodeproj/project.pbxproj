@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		930701F8209D74A800F6D436 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930701F7209D74A800F6D436 /* MapViewController.swift */; };
+		935540D0209D7F51001664CD /* Venues.json in Resources */ = {isa = PBXBuildFile; fileRef = 935540CF209D7F51001664CD /* Venues.json */; };
+		935540D2209E47A8001664CD /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935540D1209E47A8001664CD /* LocationModel.swift */; };
+		9357C61A209D356C00416527 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9357C619209D356C00416527 /* DetailViewController.swift */; };
+		935BC0C12086D0E000CF51BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935BC0C02086D0E000CF51BE /* AppDelegate.swift */; };
+		935BC0C32086D0E000CF51BE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935BC0C22086D0E000CF51BE /* LoginViewController.swift */; };
+		935BC0C62086D0E000CF51BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935BC0C42086D0E000CF51BE /* Main.storyboard */; };
+		935BC0C82086D0E100CF51BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 935BC0C72086D0E100CF51BE /* Assets.xcassets */; };
+		935BC0CB2086D0E100CF51BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935BC0C92086D0E100CF51BE /* LaunchScreen.storyboard */; };
+		935BC0D32086D2BD00CF51BE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 935BC0D22086D2BC00CF51BE /* GoogleService-Info.plist */; };
+		937006412096D5A100CB822A /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937006402096D5A100CB822A /* PostTableViewCell.swift */; };
+		93A262D3209EA55D00529185 /* FavoritesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A262D2209EA55D00529185 /* FavoritesCollectionViewCell.swift */; };
+		93A262D5209EA81E00529185 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A262D4209EA81E00529185 /* FavoritesViewController.swift */; };
+		93D7CC5F2096545100B9D09C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D7CC5E2096545100B9D09C /* MainViewController.swift */; };
+		93D7CC6120966A1300B9D09C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D7CC6020966A1300B9D09C /* ProfileViewController.swift */; };
+		93D7CC632096BE9600B9D09C /* PostsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D7CC622096BE9600B9D09C /* PostsModel.swift */; };
+		93D7CC652096C4C000B9D09C /* NewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D7CC642096C4C000B9D09C /* NewPostViewController.swift */; };
+		E13028477FF59049A3DC1DA8 /* Pods_Skoolivin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42AD3E6C574C7E9B7D0646D /* Pods_Skoolivin.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3AACCBB6C39F449C12651C70 /* Pods-Skoolivin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skoolivin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Skoolivin/Pods-Skoolivin.release.xcconfig"; sourceTree = "<group>"; };
+		4871A84635AA131868FC31BC /* Pods-Skoolivin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skoolivin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Skoolivin/Pods-Skoolivin.debug.xcconfig"; sourceTree = "<group>"; };
+		930701F7209D74A800F6D436 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		935540CF209D7F51001664CD /* Venues.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Venues.json; sourceTree = "<group>"; };
+		935540D1209E47A8001664CD /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		9357C619209D356C00416527 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		935BC0BD2086D0E000CF51BE /* Skoolivin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skoolivin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		935BC0C02086D0E000CF51BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		935BC0C22086D0E000CF51BE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		935BC0C52086D0E000CF51BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		935BC0C72086D0E100CF51BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		935BC0CA2086D0E100CF51BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		935BC0CC2086D0E200CF51BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		935BC0D22086D2BC00CF51BE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		937006402096D5A100CB822A /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		93A262D2209EA55D00529185 /* FavoritesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesCollectionViewCell.swift; sourceTree = "<group>"; };
+		93A262D4209EA81E00529185 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		93D7CC5E2096545100B9D09C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		93D7CC6020966A1300B9D09C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		93D7CC622096BE9600B9D09C /* PostsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsModel.swift; sourceTree = "<group>"; };
+		93D7CC642096C4C000B9D09C /* NewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostViewController.swift; sourceTree = "<group>"; };
+		A42AD3E6C574C7E9B7D0646D /* Pods_Skoolivin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Skoolivin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		935BC0BA2086D0E000CF51BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E13028477FF59049A3DC1DA8 /* Pods_Skoolivin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		422C48AF58F285156C618824 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A42AD3E6C574C7E9B7D0646D /* Pods_Skoolivin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		935BC0B42086D0DF00CF51BE = {
+			isa = PBXGroup;
+			children = (
+				935BC0BF2086D0E000CF51BE /* Skoolivin */,
+				935BC0BE2086D0E000CF51BE /* Products */,
+				DE7DB66D200DBB45C7DC56B3 /* Pods */,
+				422C48AF58F285156C618824 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		935BC0BE2086D0E000CF51BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				935BC0BD2086D0E000CF51BE /* Skoolivin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		935BC0BF2086D0E000CF51BE /* Skoolivin */ = {
+			isa = PBXGroup;
+			children = (
+				935BC0C02086D0E000CF51BE /* AppDelegate.swift */,
+				935BC0C22086D0E000CF51BE /* LoginViewController.swift */,
+				935BC0C42086D0E000CF51BE /* Main.storyboard */,
+				935BC0D22086D2BC00CF51BE /* GoogleService-Info.plist */,
+				935BC0C72086D0E100CF51BE /* Assets.xcassets */,
+				935BC0C92086D0E100CF51BE /* LaunchScreen.storyboard */,
+				935BC0CC2086D0E200CF51BE /* Info.plist */,
+				93D7CC5E2096545100B9D09C /* MainViewController.swift */,
+				93D7CC6020966A1300B9D09C /* ProfileViewController.swift */,
+				93D7CC622096BE9600B9D09C /* PostsModel.swift */,
+				93D7CC642096C4C000B9D09C /* NewPostViewController.swift */,
+				937006402096D5A100CB822A /* PostTableViewCell.swift */,
+				9357C619209D356C00416527 /* DetailViewController.swift */,
+				930701F7209D74A800F6D436 /* MapViewController.swift */,
+				935540CF209D7F51001664CD /* Venues.json */,
+				935540D1209E47A8001664CD /* LocationModel.swift */,
+				93A262D2209EA55D00529185 /* FavoritesCollectionViewCell.swift */,
+				93A262D4209EA81E00529185 /* FavoritesViewController.swift */,
+			);
+			path = Skoolivin;
+			sourceTree = "<group>";
+		};
+		DE7DB66D200DBB45C7DC56B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4871A84635AA131868FC31BC /* Pods-Skoolivin.debug.xcconfig */,
+				3AACCBB6C39F449C12651C70 /* Pods-Skoolivin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		935BC0BC2086D0E000CF51BE /* Skoolivin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 935BC0CF2086D0E200CF51BE /* Build configuration list for PBXNativeTarget "Skoolivin" */;
+			buildPhases = (
+				7542A24B1018C12BB1593CA0 /* [CP] Check Pods Manifest.lock */,
+				935BC0B92086D0E000CF51BE /* Sources */,
+				935BC0BA2086D0E000CF51BE /* Frameworks */,
+				935BC0BB2086D0E000CF51BE /* Resources */,
+				37221C026B4BEEFC2213E329 /* [CP] Embed Pods Frameworks */,
+				461BD968F79A823FB42D6A14 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Skoolivin;
+			productName = Skoolivin;
+			productReference = 935BC0BD2086D0E000CF51BE /* Skoolivin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		935BC0B52086D0DF00CF51BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Namrata A";
+				TargetAttributes = {
+					935BC0BC2086D0E000CF51BE = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 935BC0B82086D0DF00CF51BE /* Build configuration list for PBXProject "Skoolivin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 935BC0B42086D0DF00CF51BE;
+			productRefGroup = 935BC0BE2086D0E000CF51BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				935BC0BC2086D0E000CF51BE /* Skoolivin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		935BC0BB2086D0E000CF51BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				935BC0CB2086D0E100CF51BE /* LaunchScreen.storyboard in Resources */,
+				935BC0D32086D2BD00CF51BE /* GoogleService-Info.plist in Resources */,
+				935BC0C82086D0E100CF51BE /* Assets.xcassets in Resources */,
+				935BC0C62086D0E000CF51BE /* Main.storyboard in Resources */,
+				935540D0209D7F51001664CD /* Venues.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37221C026B4BEEFC2213E329 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Skoolivin/Pods-Skoolivin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Skoolivin/Pods-Skoolivin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		461BD968F79A823FB42D6A14 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Skoolivin/Pods-Skoolivin-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Skoolivin/Pods-Skoolivin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7542A24B1018C12BB1593CA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Skoolivin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		935BC0B92086D0E000CF51BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				937006412096D5A100CB822A /* PostTableViewCell.swift in Sources */,
+				93A262D3209EA55D00529185 /* FavoritesCollectionViewCell.swift in Sources */,
+				93D7CC5F2096545100B9D09C /* MainViewController.swift in Sources */,
+				935540D2209E47A8001664CD /* LocationModel.swift in Sources */,
+				935BC0C32086D0E000CF51BE /* LoginViewController.swift in Sources */,
+				93D7CC6120966A1300B9D09C /* ProfileViewController.swift in Sources */,
+				930701F8209D74A800F6D436 /* MapViewController.swift in Sources */,
+				93D7CC632096BE9600B9D09C /* PostsModel.swift in Sources */,
+				935BC0C12086D0E000CF51BE /* AppDelegate.swift in Sources */,
+				93D7CC652096C4C000B9D09C /* NewPostViewController.swift in Sources */,
+				93A262D5209EA81E00529185 /* FavoritesViewController.swift in Sources */,
+				9357C61A209D356C00416527 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		935BC0C42086D0E000CF51BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				935BC0C52086D0E000CF51BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		935BC0C92086D0E100CF51BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				935BC0CA2086D0E100CF51BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		935BC0CD2086D0E200CF51BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		935BC0CE2086D0E200CF51BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		935BC0D02086D0E200CF51BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4871A84635AA131868FC31BC /* Pods-Skoolivin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Skoolivin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NamrataArkalgud.Skoolivin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		935BC0D12086D0E200CF51BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AACCBB6C39F449C12651C70 /* Pods-Skoolivin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Skoolivin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NamrataArkalgud.Skoolivin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		935BC0B82086D0DF00CF51BE /* Build configuration list for PBXProject "Skoolivin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				935BC0CD2086D0E200CF51BE /* Debug */,
+				935BC0CE2086D0E200CF51BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		935BC0CF2086D0E200CF51BE /* Build configuration list for PBXNativeTarget "Skoolivin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				935BC0D02086D0E200CF51BE /* Debug */,
+				935BC0D12086D0E200CF51BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 935BC0B52086D0DF00CF51BE /* Project object */;
+}

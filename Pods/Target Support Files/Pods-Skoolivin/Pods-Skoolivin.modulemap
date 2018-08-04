@@ -1,0 +1,6 @@
+framework module Pods_Skoolivin {
+  umbrella header "Pods-Skoolivin-umbrella.h"
+
+  export *
+  module * { export * }
+}
